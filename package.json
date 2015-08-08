@@ -1,0 +1,58 @@
+{
+  "name": "redux-data",
+  "version": "0.0.1",
+  "description": "Injecting data into components from redux",
+  "main": "index.js",
+  "scripts": {
+    "test": "make test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/jhollingworth/redux-data.git"
+  },
+  "keywords": [
+    "redux"
+  ],
+  "author": "James Hollingworth",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jhollingworth/redux-data/issues"
+  },
+  "homepage": "https://github.com/jhollingworth/redux-data#readme",
+  "devDependencies": {
+    "babel": "^5.8.21",
+    "babel-eslint": "^4.0.5",
+    "chai": "^3.2.0",
+    "immutable": "^3.7.4",
+    "jsdom": "^3.0.0",
+    "mocha": "^2.2.5",
+    "react": "^0.13.0",
+    "react-test-tree": "^0.3.0",
+    "redux": "^1.0.0-rc",
+    "sinon": "^1.15.4",
+    "sinon-chai": "^2.8.0",
+    "standard": "^5.0.2"
+  },
+  "peerDependencies": {
+    "react": "^0.13.0",
+    "redux": "^1.0.0-rc"
+  },
+  "babel": {
+    "stage": 0
+  },
+  "dependencies": {
+    "invariant": "^2.1.0",
+    "react-redux": "jhollingworth/react-redux"
+  },
+  "standard": {
+    "parser": "babel-eslint",
+    "global": [
+      "describe",
+      "it",
+      "beforeEach",
+      "afterEach",
+      "before",
+      "after"
+    ]
+  }
+}
